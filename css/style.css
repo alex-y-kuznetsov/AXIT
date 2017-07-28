@@ -14,6 +14,13 @@ body {
   padding: 0 150px;
 }
 
+.clearfix::after {
+  display: table;
+  clear: both;
+
+  content: "";
+}
+
 h1,
 h2,
 h3 {
@@ -32,6 +39,30 @@ h2 {
   color: #ffffff;
 }
 
-.page-header .social-section {
-  background-color: #ffffff;
+.logo-small {
+  float: left;
+}
+
+.main-navigation {
+  float: right;
+}
+
+.page-header ul {
+  list-style: none;
+}
+
+.page-header li {
+  display: inline-block;
+
+  margin-left: 45px;
+}
+
+.page-header a {
+  text-decoration: none;
+
+  color: #333333;
+}
+
+.page-header a:hover {
+  color: #ffffff;
 }
