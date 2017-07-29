@@ -31,12 +31,13 @@ h2 {
   text-transform: uppercase;
 }
 
-
+/*Header*/
 .page-header h3,
 .page-header h2 {
   color: #ffffff;
 }
 
+/*Navigation Bar*/
 .navigation-bar {
   background-color: #000000;
 }
@@ -68,22 +69,27 @@ h2 {
 .page-header a:hover {
   color: #ffffff;
 }
+
+/*Trial*/
 .trial-section {
   min-height: 650px;
 
   background-color: #9a9a9a;
 }
+
 .trial-description {
   float: left;
 
   max-width: 515px;
   margin-top: 110px;
 }
+
 .trial-description h2 {
   font-size: 30px;
   font-weight: normal;
   line-height: 32px;
 }
+
 .trial-form {
   float: right;
 
@@ -94,6 +100,7 @@ h2 {
   border-radius: 5px;
   background-color: #ffffff;
 }
+
 .trial-form h3 {
   width: 360px;
   margin: 0 auto;
@@ -107,12 +114,14 @@ h2 {
 
   font-size: 22px;
 }
+
 .trial-form .trial-info {
   text-decoration: none;
   text-transform: uppercase;
 
   color:#ff8b38;
 }
+
 .trial-form input {
   display: block;
 
@@ -136,4 +145,97 @@ h2 {
   border-radius: 0 0 5px 5px;
   background-color: #ff8b38;
 
+}
+
+.trial-form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+/*Main*/
+/*Social*/
+.social-section {
+  min-height: 106px;
+}
+
+.social-text {
+  float: left;
+
+  width: 365px;
+}
+
+.social-icons {
+  float: right;
+}
+
+/*Tabs*/
+.tabs-section {
+  min-height: 595px;
+
+  background-color: #f5f5f5;
+}
+
+.tabs-buttons {
+  float: left;
+
+  width: 120px;
+  margin-right: 100px;
+}
+
+.tab-button {
+  padding: 50px 36px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: #333333;
+}
+
+.tab-button:hover {
+  cursor: pointer;
+}
+
+.tab-button:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.tab-button:last-child {
+  border-bottom: none;
+  border-radius: 0 0 5px 5px;
+}
+
+.tab-button-active {
+  background-color: #ff8b38;
+}
+
+.tabs-content {
+  float: left;
+
+  width: 480px;
+  margin-right: 90px;
+}
+
+.tabs-image {
+  float: right;
+}
+
+.tabs-buttons,
+.tabs-content,
+.tabs-image {
+  margin-top: 145px;
+}
+
+/*Sublist*/
+.sublist-content {
+  float: right;
+
+  width: 435px;
+  margin-top: 105px;
+}
+
+.sublist-image {
+  float: left;
+
+  margin-top: 128px;
 }
