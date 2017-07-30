@@ -297,6 +297,11 @@ h2 {
 .pricing-section {
   background-color: #f5f5f5;
 }
+
+.pricing-title {
+  padding-top: 105px;
+}
+
 .pricing-options {
   display: flex;
   align-items: stretch;
@@ -380,6 +385,8 @@ h2 {
 }
 
 .reviews-items blockquote {
+  position: relative;
+
   margin: 0;
   padding: 8px 15px;
 
@@ -388,16 +395,46 @@ h2 {
   background-color: #f5f5f5;
 }
 
-.review-item cite {
-  margin-top: 35px;
+.reviews-items blockquote::after {
+  position: absolute;
+  bottom: -13px;
+  left: 25px;
+
+  display: table;
+
+  width: 0;
+  height: 0;
+
+  content: "";
+
+  border-width: 15px 10px 0 10px;
+  border-style: solid;
+  border-color: #f5f5f5 transparent transparent transparent;
 }
 
-.review-item cite::before {
+.review-item cite {
   display: inline-block;
-  clear: both;
+
+  margin-top: 35px;
+
+  vertical-align: top;
+
+  font-style: normal;
+}
+
+.review-item cite b {
+  color: #000000;
+
+  font-size: 20px;
+}
+
+.review-avatar {
+  display: inline-block;
 
   width: 70px;
   height: 70px;
+  margin-top: 20px;
+  margin-right: 15px;
 
   content: "";
 
@@ -416,4 +453,29 @@ h2 {
   float: right;
 
   margin-right: 0;
+}
+
+/*Download*/
+.download-section {
+  background-color: #9a9a9a;
+}
+
+.download-title {
+  padding-top: 75px;
+
+  color: #ffffff;
+}
+
+.download-title h2 {
+  color: #ffffff;
+}
+
+.download-btn {
+  display: block;
+
+  width: 100px;
+  margin: 0 auto;
+
+  text-align: center;
+  text-decoration: none;
 }
