@@ -31,6 +31,21 @@ h2 {
   text-transform: uppercase;
 }
 
+.section-title {
+  width: 620px;
+  margin: 0 auto;
+  margin-top: 110px;
+  margin-bottom: 80px;
+
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
 /*Header*/
 .page-header h3,
 .page-header h2 {
@@ -212,7 +227,7 @@ h2 {
 .tabs-content {
   float: left;
 
-  width: 480px;
+  width: 470px;
   margin-right: 90px;
 }
 
@@ -238,4 +253,47 @@ h2 {
   float: left;
 
   margin-top: 128px;
+  margin-bottom: 70px;
+}
+
+/*Standard Picture*/
+.standard-picture-section {
+  background-color: #f5f5f5;
+}
+
+.standard-picture-content {
+  float: left;
+
+  width: 475px;
+  margin-top: 105px;
+}
+
+.standard-picture-image {
+  float: right;
+
+  margin-top: 128px;
+  margin-bottom: 60px;
+}
+
+/*Features*/
+.features-items {
+  margin-bottom: 104px;
+}
+.feature-item {
+  float: left;
+
+  width: 355px;
+  margin-right: 10px;
+
+  text-align: center;
+}
+.feature-item:last-child {
+  float: right;
+
+  margin-right: 0;
+}
+
+/*Pricing*/
+.pricing-section {
+  background-color: #f5f5f5;
 }
