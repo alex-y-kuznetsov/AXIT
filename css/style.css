@@ -479,3 +479,43 @@ h2 {
   text-align: center;
   text-decoration: none;
 }
+
+/*Contact*/
+.contact-form-left {
+  float: left;
+}
+
+.contact-form-right {
+  float: right;
+}
+
+.contact-form-fields input,
+.contact-form-fields textarea {
+  display: block;
+
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 38px;
+  padding: 5px;
+  padding-left: 10px;
+
+  color: #333333;
+  border: none;
+  border-bottom: 1px solid #9a9a9a;
+}
+
+.contact-form-submit {
+  display: block;
+}
+
+.contact-form-fields input[type="submit"] {
+  display: block;
+  clear: both;
+
+  width: 146px;
+  height: 44px;
+  margin: 0 auto;
+
+  border-radius: 5px;
+  background-color: #ff8b38;
+}
