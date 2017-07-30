@@ -78,7 +78,7 @@ h2 {
 .page-header a {
   text-decoration: none;
 
-  color: #333333;
+  color: #b0b0b0;
 }
 
 .page-header a:hover {
@@ -505,7 +505,10 @@ h2 {
 }
 
 .contact-form-submit {
-  display: block;
+  clear: both;
+
+  margin-bottom: 80px;
+  padding-top: 50px;
 }
 
 .contact-form-fields input[type="submit"] {
@@ -516,6 +519,17 @@ h2 {
   height: 44px;
   margin: 0 auto;
 
+  cursor: pointer;
+
+  color: #ffffff;
   border-radius: 5px;
   background-color: #ff8b38;
+}
+
+/*Footer*/
+.page-footer {
+  text-align: center;
+
+  color: #b0b0b0;
+  background-color: #000000;
 }
