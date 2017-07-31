@@ -237,6 +237,16 @@ h2 {
 
 .social-icons {
   float: right;
+
+  padding: 40px 0;
+}
+
+.social-icons a {
+  padding-right: 50px;
+}
+
+.social-icons a:last-child {
+  padding-right: 0;
 }
 
 /*Tabs*/
@@ -624,4 +634,16 @@ h2 {
 
   color: #b0b0b0;
   background-color: #000000;
+}
+
+.footer-social {
+  padding-top: 22px;
+}
+
+.footer-social a {
+  margin-right: 28px;
+}
+
+.footer-social a:last-child {
+  margin-right: 0;
 }
