@@ -313,6 +313,7 @@ h2 {
 
   width: 435px;
   margin-top: 105px;
+  margin-bottom: 130px;
 }
 
 .sublist-section .divider {
@@ -324,6 +325,29 @@ h2 {
 
   margin-top: 128px;
   margin-bottom: 70px;
+}
+
+.tips {
+  position: relative;
+
+  width: 370px;
+  margin-left: 80px;
+}
+
+.tips::before {
+  position: absolute;
+  top: -5px;
+  left: -90px;
+
+  display: table;
+
+  width: 100px;
+  height: 100px;
+
+  content: "";
+
+  background-image: url("../img/icon-cloud.png");
+  background-repeat: no-repeat;
 }
 
 /*Standard Picture*/
