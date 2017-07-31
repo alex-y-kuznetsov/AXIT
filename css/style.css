@@ -1,3 +1,5 @@
+
+/*General*/
 body {
   color: #86878b;
   background-color: #ffffff;
@@ -44,6 +46,25 @@ h2 {
   font-size: 30px;
   font-weight: normal;
   line-height: 32px;
+}
+
+.btn {
+  display: block;
+
+  width: 130px;
+  margin: 0 auto;
+  padding: 7px 0;
+
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.btn:hover {
+  background-color: #ff8b38;
 }
 
 /*Header*/
@@ -94,7 +115,7 @@ h2 {
   margin-left: 45px;
 }
 
-.page-header a {
+.navigation-bar a {
   text-decoration: none;
 
   color: #b0b0b0;
@@ -263,6 +284,15 @@ h2 {
 .tabs-content,
 .tabs-image {
   margin-top: 145px;
+}
+
+.tabs-download-btn {
+  margin: 0;
+  padding: 10px 0;
+
+  border: none;
+  border-radius: 5px;
+  background-color: #ff8b38;
 }
 
 /*Sublist*/
@@ -495,13 +525,7 @@ h2 {
 }
 
 .download-btn {
-  display: block;
-
-  width: 100px;
-  margin: 0 auto;
-
-  text-align: center;
-  text-decoration: none;
+  margin-bottom: 60px;
 }
 
 /*Contact*/
