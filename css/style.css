@@ -59,6 +59,25 @@ h2 {
 
 .logo-small {
   float: left;
+
+  padding: 14px 0;
+}
+
+.logo b {
+  color: #ffffff;
+
+  font-size: 20px;
+}
+
+.logo span {
+  color: #ff8b38;
+
+  font-size: 20px;
+}
+
+.logo-small b,
+.logo-small span {
+  vertical-align: middle;
 }
 
 .main-navigation {
@@ -90,6 +109,11 @@ h2 {
   min-height: 650px;
 
   background-color: #9a9a9a;
+}
+
+.logo-large b,
+.logo-large span {
+  font-size: 60px;
 }
 
 .trial-description {
@@ -134,7 +158,7 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
 
-  color:#ff8b38;
+  color: #ff8b38;
 }
 
 .trial-form input {
