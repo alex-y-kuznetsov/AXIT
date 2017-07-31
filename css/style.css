@@ -42,6 +42,14 @@ h2 {
   text-align: center;
 }
 
+.divider {
+  width: 65px;
+  height: 3px;
+  margin: 30px auto;
+
+  background-color: #ff8b38;
+}
+
 .section-title h2 {
   font-size: 30px;
   font-weight: normal;
@@ -130,6 +138,10 @@ h2 {
   min-height: 650px;
 
   background-color: #9a9a9a;
+}
+
+.trial-section .divider {
+  background-color: #ffffff;
 }
 
 .logo-large b,
@@ -301,6 +313,10 @@ h2 {
 
   width: 435px;
   margin-top: 105px;
+}
+
+.sublist-section .divider {
+  margin: 30px 0;
 }
 
 .sublist-image {
@@ -518,6 +534,10 @@ h2 {
   padding-top: 75px;
 
   color: #ffffff;
+}
+
+.download-section .divider {
+  background-color: #ffffff;
 }
 
 .download-title h2 {
