@@ -4,7 +4,7 @@ body {
   color: #86878b;
   background-color: #ffffff;
 
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 20px;
@@ -75,6 +75,10 @@ h2 {
   background-color: #ff8b38;
 }
 
+.large-image {
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.2);
+}
+
 /*Header*/
 .page-header h3,
 .page-header h2 {
@@ -138,6 +142,7 @@ h2 {
   min-height: 650px;
 
   background-color: #9a9a9a;
+  background-image: url("../img/streets.jpg");
 }
 
 .trial-section .divider {
@@ -154,6 +159,8 @@ h2 {
 
   max-width: 515px;
   margin-top: 110px;
+
+  color: #ffffff;
 }
 
 .trial-description h2 {
@@ -562,6 +569,8 @@ h2 {
 /*Download*/
 .download-section {
   background-color: #9a9a9a;
+  background-image: url("../img/street-sunset.jpg");
+  background-position: 50% 50%;
 }
 
 .download-title {
@@ -579,6 +588,7 @@ h2 {
 }
 
 .download-btn {
+  margin-top: -72px;
   margin-bottom: 60px;
 }
 
