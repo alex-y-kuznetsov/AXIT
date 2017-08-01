@@ -146,6 +146,8 @@ h2 {
 }
 
 .trial-section .divider {
+  margin: 30px 0;
+
   background-color: #ffffff;
 }
 
@@ -163,7 +165,13 @@ h2 {
   color: #ffffff;
 }
 
+.trial-description a {
+  margin: 45px 0;
+}
+
 .trial-description h2 {
+  text-align: left;
+
   font-size: 30px;
   font-weight: normal;
   line-height: 32px;
@@ -316,7 +324,7 @@ h2 {
 }
 
 .tabs-download-btn {
-  margin: 0;
+  margin: 45px 0;
   padding: 10px 0;
 
   border: none;
