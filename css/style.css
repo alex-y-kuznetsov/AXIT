@@ -314,6 +314,15 @@ h2 {
 
   width: 470px;
   margin-right: 90px;
+
+}
+
+.tabs-content p {
+  width: 470px;
+}
+
+.tab {
+  float: left;
 }
 
 .tabs-image {
@@ -333,6 +342,10 @@ h2 {
   border: none;
   border-radius: 5px;
   background-color: #ff8b38;
+}
+
+.tab-invisible {
+  display: none;
 }
 
 /*Sublist*/
