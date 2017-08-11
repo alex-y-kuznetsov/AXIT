@@ -34,10 +34,8 @@ h2 {
 }
 
 .section-title {
-  width: 620px;
+  width: 680px;
   margin: 0 auto;
-  margin-top: 110px;
-  margin-bottom: 80px;
 
   text-align: center;
 }
@@ -142,7 +140,7 @@ h2 {
 
 /*Trial*/
 .trial-section {
-  min-height: 650px;
+  height: 650px;
 
   background-color: #9a9a9a;
   background-image: url("../img/streets.jpg");
@@ -411,17 +409,25 @@ h2 {
 }
 
 /*Features*/
+.features-title {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
 .features-items {
   margin-bottom: 104px;
 }
+
 .feature-item {
   float: left;
 
   width: 355px;
   margin-right: 10px;
+  padding-bottom: 70px;
 
   text-align: center;
 }
+
 .feature-item:last-child {
   float: right;
 
@@ -434,7 +440,8 @@ h2 {
 }
 
 .pricing-title {
-  padding-top: 105px;
+  padding-top: 75px;
+  padding-bottom: 60px;
 }
 
 .pricing-options {
@@ -513,6 +520,11 @@ h2 {
 }
 
 /*Reviews*/
+.reviews-title {
+  padding-top: 75px;
+  padding-bottom: 55px;
+}
+
 .reviews-items {
   margin-right: 25px;
   margin-bottom: 100px;
@@ -582,6 +594,7 @@ h2 {
 
   width: 275px;
   margin-right: 110px;
+  padding-bottom: 100px;
 }
 
 .review-item:last-child {
@@ -595,10 +608,12 @@ h2 {
   background-color: #9a9a9a;
   background-image: url("../img/street-sunset.jpg");
   background-position: 50% 50%;
+  height: 320px;
 }
 
 .download-title {
-  padding-top: 75px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 
   color: #ffffff;
 }
@@ -611,12 +626,12 @@ h2 {
   color: #ffffff;
 }
 
-.download-btn {
-  margin-top: -72px;
-  margin-bottom: 60px;
+/*Contact*/
+.contact-title {
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 
-/*Contact*/
 .contact-form-left {
   float: left;
 }
@@ -641,10 +656,9 @@ h2 {
 }
 
 .contact-form-submit {
-  clear: both;
 
   margin-bottom: 80px;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .contact-form-fields input[type="submit"] {
